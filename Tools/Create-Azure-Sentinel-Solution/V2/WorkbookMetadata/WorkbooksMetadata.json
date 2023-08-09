@@ -127,26 +127,6 @@
         "provider": "Microsoft"
     },
     {
-        "workbookKey": "ExchangeOnlineWorkbook",
-        "logoFileName": "office365_logo.svg",
-        "description": "Gain insights into Microsoft Exchange online by tracing and analyzing all Exchange operations and user activities.\nThis workbook let you monitor user activities, including logins, account operations, permission changes, and mailbox creations to discover suspicious trends among them.",
-        "dataTypesDependencies": [
-            "OfficeActivity"
-        ],
-        "dataConnectorsDependencies": [
-            "Office365"
-        ],
-        "previewImagesFileNames": [
-            "ExchangeOnlineWhite.png",
-            "ExchangeOnlineBlack.png"
-        ],
-        "version": "2.0.0",
-        "title": "Exchange Online",
-        "templateRelativePath": "ExchangeOnline.json",
-        "subtitle": "",
-        "provider": "Microsoft"
-    },
-    {
         "workbookKey": "PaloAltoOverviewWorkbook",
         "logoFileName": "paloalto_logo.svg",
         "description": "Gain insights and comprehensive monitoring into Palo Alto firewalls by analyzing traffic and activities.\nThis workbook correlates all Palo Alto data with threat events to identify suspicious entities and relationships.\nYou can learn about trends across user and data traffic, and drill down into Palo Alto Wildfire and filter results.",
@@ -250,52 +230,6 @@
         "version": "1.3.0",
         "title": "DNS",
         "templateRelativePath": "Dns.json",
-        "subtitle": "",
-        "provider": "Microsoft"
-    },
-    {
-        "workbookKey": "Office365Workbook",
-        "logoFileName": "office365_logo.svg",
-        "description": "Gain insights into Office 365 by tracing and analyzing all operations and activities. You can drill down into your SharePoint, OneDrive, and Exchange.\nThis workbook lets you find usage trends across users, files, folders, and mailboxes, making it easier to identify anomalies in your network.",
-        "dataTypesDependencies": [
-            "OfficeActivity"
-        ],
-        "dataConnectorsDependencies": [
-            "Office365"
-        ],
-        "previewImagesFileNames": [
-            "Office365White1.png",
-            "Office365Black1.png",
-            "Office365White2.png",
-            "Office365Black2.png",
-            "Office365White3.png",
-            "Office365Black3.png"
-        ],
-        "version": "2.0.1",
-        "title": "Office 365",
-        "templateRelativePath": "Office365.json",
-        "subtitle": "",
-        "provider": "Microsoft"
-    },
-    {
-        "workbookKey": "SharePointAndOneDriveWorkbook",
-        "logoFileName": "office365_logo.svg",
-        "description": "Gain insights into SharePoint and OneDrive by tracing and analyzing all operations and activities.\nYou can view trends across user operation, find correlations between users and files, and identify interesting information such as user IP addresses.",
-        "dataTypesDependencies": [
-            "OfficeActivity"
-        ],
-        "dataConnectorsDependencies": [
-            "Office365"
-        ],
-        "previewImagesFileNames": [
-            "SharePointAndOneDriveBlack1.png",
-            "SharePointAndOneDriveBlack2.png",
-            "SharePointAndOneDriveWhite1.png",
-            "SharePointAndOneDriveWhite2.png"
-        ],
-        "version": "2.0.0",
-        "title": "SharePoint & OneDrive",
-        "templateRelativePath": "SharePointAndOneDrive.json",
         "subtitle": "",
         "provider": "Microsoft"
     },
@@ -2225,7 +2159,7 @@
         "provider": "Microsoft"
     },
     {
-        "workbookKey": "SOCProcessFrameworkWorkbook",
+        "workbookKey": "SOCProcessFramework",
         "logoFileName": "Azure_Sentinel.svg",
         "description": "Built by Microsoft's Sentinel GBB's - This workbook contains years of SOC Best Practices and is intended to help SOCs mature and leverage industry standards in Operationalizing their SOC in using Microsoft Sentinel. It contains Processes and Procedures every SOC should consider and builds a high level of operational excellence.",
         "dataTypesDependencies": [],
@@ -2404,28 +2338,6 @@
         "version": "1.0.0",
         "title": "ADXvsLA",
         "templateRelativePath": "ADXvsLA.json",
-        "subtitle": "",
-        "provider": "Microsoft Sentinel Community"
-    },
-    {
-        "workbookKey": "MicrosoftDefenderForOffice365",
-        "logoFileName": "office365_logo.svg",
-        "description": "Gain insights into your Microsoft Defender for Office 365 raw data logs.  This workbook lets you look at trends in email senders, attachments and embedded URL data to find anomalies. You can also search by, sender, recipient, subject, attachment or embedded URL to find where the related messages have been sent.",
-        "dataTypesDependencies": [
-            "EmailEvents",
-            "EmailUrlInfo",
-            "EmailAttachmentInfo"
-        ],
-        "dataConnectorsDependencies": [],
-        "previewImagesFileNames": [
-            "MDOWhite1.png",
-            "MDOBlack1.png",
-            "MDOWhite2.png",
-            "MDOBlack2.png"
-        ],
-        "version": "1.0.0",
-        "title": "Microsoft Defender For Office 365",
-        "templateRelativePath": "MicrosoftDefenderForOffice365.json",
         "subtitle": "",
         "provider": "Microsoft Sentinel Community"
     },
@@ -3616,28 +3528,6 @@
         "provider": "Sonrai"
     },
     {
-        "workbookKey": "CloudflareWorkbook",
-        "logoFileName": "cloudflare.svg",
-        "description": "Sets the time name for analysis",
-        "dataTypesDependencies": [
-            "Cloudflare_CL"
-        ],
-        "dataConnectorsDependencies": [
-            "CloudflareDataConnector"
-        ],
-        "previewImagesFileNames": [
-            "CloudflareOverviewBlack01.png",
-            "CloudflareOverviewBlack02.png",
-            "CloudflareOverviewWhite01.png",
-            "CloudflareOverviewWhite02.png"
-        ],
-        "version": "1.0.0",
-        "title": "Cloudflare",
-        "templateRelativePath": "Cloudflare.json",
-        "subtitle": "",
-        "provider": "Cloudflare"
-    },
-    {
         "workbookKey": "SemperisDSPWorkbook",
         "logoFileName": "Semperis.svg",
         "description": "Specify the time range on which to query the data",
@@ -4052,28 +3942,6 @@
         "version": "1.0.0",
         "title": "ZeroTrust(TIC3.0)",
         "templateRelativePath": "ZeroTrustTIC3.json",
-        "subtitle": "",
-        "provider": "Microsoft"
-    },
-    {
-        "workbookKey": "InsiderRiskManagementWorkbook",
-        "logoFileName": "Azure_Sentinel.svg",
-        "description": "The Microsoft Insider Risk Management Workbook integrates telemetry from 25+ Microsoft security products to provide actionable insights into insider risk management. Reporting tools provide \u201cGo to Alert\u201d links to provide deeper integration between products and a simplified user experience for exploring alerts. ",
-        "dataTypesDependencies": [
-            "SigninLogsSigninLogs",
-            "AuditLogs",
-            "AzureActivity",
-            "OfficeActivity",
-            "InformationProtectionLogs_CL",
-            "SecurityIncident"
-        ],
-        "dataConnectorsDependencies": [],
-        "previewImagesFileNames": [
-            "InsiderRiskManagementBlack1.png"
-        ],
-        "version": "1.0.0",
-        "title": "Insider Risk Management",
-        "templateRelativePath": "InsiderRiskManagement.json",
         "subtitle": "",
         "provider": "Microsoft"
     },
@@ -4845,6 +4713,19 @@
         "provider": "iboss"
     },
     {
+        "workbookKey": "CynerioOverviewWorkbook",
+        "logoFileName": "",
+        "description": "An overview of Cynerio Security events",
+        "dataTypesDependencies": ["CynerioEvent_CL"],
+        "dataConnectorsDependencies": ["CynerioSecurityEvents"],
+        "previewImagesFileNames": ["CynerioOverviewBlack.png", "CynerioOverviewWhite.png"],
+        "version": "1.0.0",
+        "title": "Cynerio Overview Workbook",
+        "templateRelativePath": "CynerioOverviewWorkbook.json",
+        "subtitle": "",
+        "provider": "Cynerio"
+    },
+    {
         "workbookKey": "Fortiweb-workbook",
         "logoFileName": "Azure_Sentinel.svg",
         "description": "This workbook depends on a parser based on a Kusto Function to work as expected [**Fortiweb**](https://aka.ms/sentinel-FortiwebDataConnector-parser) which is deployed with the Microsoft Sentinel Solution.",
@@ -5177,22 +5058,7 @@
         "title": "Incident Tasks Workbook",
         "templateRelativePath": "IncidentTasksWorkbook.json",
         "subtitle": "",
-        "provider": "Microsoft",
-        "support": {
-            "tier": "Microsoft"
-        },
-        "author": {
-            "name": "Microsoft Corporation"
-        },
-        "source": {
-            "kind": "Community"
-        },
-        "categories": {
-            "domains": [
-                "Incident Management",
-                "SOC Reporting"
-            ]
-        }
+        "provider": "Microsoft"
       },
         {
     "workbookKey": "NetCleanProActiveWorkbook",
@@ -5264,7 +5130,7 @@
       "title": "Zoom Reports",
       "templateRelativePath": "ZoomReports.json",
       "subtitle": "",
-      "provider": "42Crunch"
+      "provider": "Community"
     },
     {
     "workbookKey": "ForcepointNGFWAdvanced",
@@ -10279,5 +10145,115 @@
     "templateRelativePath": "WebSessionEssentials.json",
     "subtitle": "",
     "provider": "Microsoft"
+  },
+  {
+    "workbookKey": "IslandAdminAuditOverview",
+    "logoFileName": "island.svg",
+    "description": "This workbook provides a view into the activities of administrators in the Island Management Console.",
+    "dataTypesDependencies": [],
+    "dataConnectorsDependencies": [],
+    "previewImagesFileNames": [
+        "IslandEnterpriseBrowserAdminAuditOverview.png"
+    ],
+    "version": "1.0.0",
+    "title": "Island Admin Audit Overview",
+    "templateRelativePath": "IslandAdminAuditOverview.json",
+    "subtitle": "",
+    "provider": "Island"
+},
+{
+  "workbookKey": "IslandUserActivityOverview",
+  "logoFileName": "island.svg",
+  "description": "This workbook provides a view into the activities of users while using the Island Enterprise Browser.",
+  "dataTypesDependencies": [],
+  "dataConnectorsDependencies": [],
+  "previewImagesFileNames": [
+      "IslandEnterpriseBrowserUserActivityOverview.png"
+  ],
+  "version": "1.0.0",
+  "title": "Island User Activity Overview",
+  "templateRelativePath": "IslandUserActivityOverview.json",
+  "subtitle": "",
+  "provider": "Island"
+},
+{
+        "workbookKey": "BloodHoundEnterpriseAttackPathWorkbook",
+        "description": "Gain insights into BloodHound Enterprise attack paths.",
+        "dataTypesDependencies": [ "BloodHoundEnterprise" ],
+        "dataConnectorsDependencies": [ "BloodHoundEnterprise" ],
+        "version": "1.0",
+        "title": "BloodHound Enterprise Attack Paths",
+        "templateRelativePath": "BloodHoundEnterpriseAttackPath.json",
+        "subtitle": "",
+        "provider": "SpecterOps"
+    },
+    {
+        "workbookKey": "BloodHoundEnterprisePostureWorkbook",
+        "description": "Gain insights into BloodHound Enterprise domain posture.",
+        "dataTypesDependencies": [ "BloodHoundEnterprise" ],
+        "dataConnectorsDependencies": [ "BloodHoundEnterprise" ],
+        "version": "1.0",
+        "title": "BloodHound Enterprise Posture",
+        "templateRelativePath": "BloodHoundEnterprisePosture.json",
+        "subtitle": "",
+        "provider": "SpecterOps"
+    },
+    {
+      "workbookKey": "BitSightWorkbook",
+      "logoFileName": "BitSight.svg",
+      "description": "Gain insights into BitSight data.",
+      "dataTypesDependencies": ["Alerts_data_CL", "Breaches_data_CL", "Company_details_CL", "Company_rating_details_CL", "Diligence_historical_statistics_CL", "Diligence_statistics_CL", "Findings_summary_CL", "Findings_data_CL", "Graph_data_CL", "Industrial_statistics_CL", "Observation_statistics_CL"],
+      "dataConnectorsDependencies": ["BitSightDatConnector"],
+      "previewImagesFileNames": ["BitSightWhite1.png","BitSightBlack1.png"],
+      "version": "1.0.0",
+      "title": "BitSight",
+      "templateRelativePath": "BitSightWorkbook.json",
+      "subtitle": "",
+      "provider": "BitSight"
+    },
+    {
+        "workbookKey": "VectraXDR",
+        "logoFileName": "",
+        "description": "This workbook provides visualization of Audit, Detections, Entity Scoring, Lockdown and Health data.",
+        "dataTypesDependencies": [
+            "Audits_Data_CL",
+            "Detections_Data_CL",
+            "Entity_Scoring_Data_CL",
+            "Lockdown_Data_CL",
+            "Health_Data_CL"
+        ],
+        "dataConnectorsDependencies": [
+            "VectraDataConnector"
+        ],
+        "previewImagesFileNames": [
+            "VectraXDRWhite1.png",
+            "VectraXDRWhite2.png",
+            "VectraXDRWhite3.png",
+            "VectraXDRWhite4.png",
+            "VectraXDRWhite5.png",
+            "VectraXDRBlack1.png",
+            "VectraXDRBlack2.png",
+            "VectraXDRBlack3.png",
+            "VectraXDRBlack4.png",
+            "VectraXDRBlack5.png"
+        ],
+        "version": "1.0.0",
+        "title": "Vectra XDR",
+        "templateRelativePath": "VectraXDR.json",
+        "subtitle": "",
+        "provider": "Vectra"
+    },
+	  {
+    "workbookKey": "CloudflareWorkbook",
+    "logoFileName": "cloudflare.svg",
+    "description": "Gain insights into Cloudflare events. You will get visibility on your Cloudflare web traffic, security, reliability.",
+    "dataTypesDependencies": [ "Cloudflare_CL" ],
+    "dataConnectorsDependencies": [ "CloudflareDataConnector" ],
+    "previewImagesFileNames": ["CloudflareOverviewWhite01.png", "CloudflareOverviewWhite02.png", "CloudflareOverviewBlack01.png", "CloudflareOverviewBlack02.png"],
+    "version": "1.0",
+    "title": "Cloudflare",
+    "templateRelativePath": "Cloudflare.json",
+    "subtitle": "",
+    "provider": "Cloudflare"
   }
 ]
